@@ -1,3 +1,4 @@
+
 .DS_STORE
 node_modules
 scripts/flow/*/.flowconfig
@@ -24,6 +25,7 @@ chrome-user-data
 *.swp
 *.swo
 
+# Editor directories and files
 packages/react-devtools-core/dist
 packages/react-devtools-extensions/chrome/build
 packages/react-devtools-extensions/chrome/*.crx
