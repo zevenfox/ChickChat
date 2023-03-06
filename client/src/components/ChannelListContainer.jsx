@@ -3,7 +3,7 @@ import { ChannelList, useChatContext } from 'stream-chat-react';
 import Cookies from 'universal-cookie';
 
 import { ChannelSearch, TeamChannelList, TeamChannelPreview } from './';
-import HospitalIcon from '../assets/hospital.png'
+import HospitalIcon from '../assets/test-removebg.png'
 import LogoutIcon from '../assets/logout.png'
 
 
