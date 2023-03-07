@@ -1,15 +1,17 @@
 const express = require('express');
 const cors = require('cors');
+
+const authRoutes = require('./routes/auth.js');
+
 const app = express();
 const PORT = process.env.PORT || 4000;
 
-
-const authRoutes = require('./routes/auth');
-
-
 require('dotenv').config();
 
-app.use(cors());
+app.use(cors({
+    origin: 'http://localhost:3000'
+}));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
