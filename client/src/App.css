@@ -27,7 +27,7 @@
     justify-content: center;
   
     padding: 2rem;
-    background: #004657;
+    background: #03315c;
   }
   
   .auth__form-container_image {
@@ -50,7 +50,7 @@
     box-shadow: 0px 1px 5px rgb(0 0 0 / 10%);
     border-radius: 5px;
     transition: 0.8s ease;
-    background: #fff;
+    background: #ffffff;
   }
   
   .auth__form-container_fields-content p {
@@ -962,10 +962,10 @@
   
   .team-channel-list__header__title {
     font-family: Helvetica Neue, sans-serif;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 16px;
     height: 16px;
-    color: rgba(255, 255, 255, 0.66);
+    color: #004657;
     margin-bottom: 10px;
   }
   
@@ -1002,7 +1002,7 @@
     align-items: center;
     font-family: Helvetica Neue, sans-serif;
     font-size: 14px;
-    color: #ffffff;
+    color: #004657;
     padding: 0px 20px;
     height: 100%;
     width: 100%;
