@@ -33,6 +33,10 @@ To install and run ChickChat locally, follow these steps:
 - Material-UI
 - Node.js
 
+## API
+- Stream : Chat API
+- Twilio : SMS notification
+
 ## Contributing
 
 If you'd like to contribute to ChickChat, please fork the repository and make changes as you see fit. Pull requests are welcome! 
