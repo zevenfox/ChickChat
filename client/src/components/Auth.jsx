@@ -62,33 +62,33 @@ const Auth = () => {
                     <form onSubmit={handleSubmit}>
                         {isSignup && (
                             <div className="auth__form-container_fields-content_input">
-                                <placeholder htmlFor="fullName">Full Name</placeholder>
+                                <label htmlFor="fullName">Full Name</label>
                                 <input 
                                     name="fullName" 
                                     type="text"
-                                    placeholder="Full Name"
+                                    label="Full Name"
                                     onChange={handleChange}
                                     required
                                 />
                             </div>
                         )}
                         <div className="auth__form-container_fields-content_input">
-                            <placeholder htmlFor="username">Username</placeholder>
+                            <label htmlFor="username">Username</label>
                                 <input 
                                     name="username" 
                                     type="text"
-                                    placeholder="Username"
+                                    label="Username"
                                     onChange={handleChange}
                                     required
                                 />
                             </div>
                         {isSignup && (
                             <div className="auth__form-container_fields-content_input">
-                                <placeholder htmlFor="phoneNumber">Phone Number</placeholder>
+                                <label htmlFor="phoneNumber">Phone Number</label>
                                 <input 
                                     name="phoneNumber" 
                                     type="text"
-                                    placeholder="Phone Number"
+                                    label="Phone Number"
                                     onChange={handleChange}
                                     required
                                 />
@@ -96,33 +96,33 @@ const Auth = () => {
                         )}
                         {isSignup && (
                             <div className="auth__form-container_fields-content_input">
-                                <placeholder htmlFor="avatarURL">Avatar URL</placeholder>
+                                <label htmlFor="avatarURL">Avatar URL</label>
                                 <input 
                                     name="avatarURL" 
                                     type="text"
-                                    placeholder="Avatar URL"
+                                    label="Avatar URL"
                                     onChange={handleChange}
                                     required
                                 />
                             </div>
                         )}
                         <div className="auth__form-container_fields-content_input">
-                                <placeholder htmlFor="password">Password</placeholder>
+                                <label htmlFor="password">Password</label>
                                 <input 
                                     name="password" 
                                     type="password"
-                                    placeholder="Password"
+                                    label="Password"
                                     onChange={handleChange}
                                     required
                                 />
                             </div>
                         {isSignup && (
                             <div className="auth__form-container_fields-content_input">
-                                <placeholder htmlFor="confirmPassword">Confirm Password</placeholder>
+                                <label htmlFor="confirmPassword">Confirm Password</label>
                                 <input 
                                     name="confirmPassword" 
                                     type="password"
-                                    placeholder="Confirm Password"
+                                    label="Confirm Password"
                                     onChange={handleChange}
                                     required
                                 />
