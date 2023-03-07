@@ -21,7 +21,7 @@ const Auth = () => {
 
     const handleChange = (e) => {
         setForm({ ...form, [e.target.name]: e.target.value });
-        console.log(form)
+		console.log(form);
     }
 
     const handleSubmit = async (e) => {
@@ -31,7 +31,7 @@ const Auth = () => {
 
         const URL = 'http://localhost:4000/auth';
 
-        
+
         const { data: { token, userId, hashedPassword, fullName } } = await axios.post(`${URL}/${isSignup ? 'signup' : 'login'}`, {
             username, password, fullName: form.fullName, phoneNumber, avatarURL,
         });
@@ -66,7 +66,7 @@ const Auth = () => {
                                 <input 
                                     name="fullName" 
                                     type="text"
-                                    label="Full Name"
+                                    placeholder="Full Name"
                                     onChange={handleChange}
                                     required
                                 />
@@ -77,7 +77,7 @@ const Auth = () => {
                                 <input 
                                     name="username" 
                                     type="text"
-                                    label="Username"
+                                    placeholder="Username"
                                     onChange={handleChange}
                                     required
                                 />
@@ -88,7 +88,7 @@ const Auth = () => {
                                 <input 
                                     name="phoneNumber" 
                                     type="text"
-                                    label="Phone Number"
+                                    placeholder="Phone Number"
                                     onChange={handleChange}
                                     required
                                 />
@@ -100,7 +100,7 @@ const Auth = () => {
                                 <input 
                                     name="avatarURL" 
                                     type="text"
-                                    label="Avatar URL"
+                                    placeholder="Avatar URL"
                                     onChange={handleChange}
                                     required
                                 />
@@ -111,7 +111,7 @@ const Auth = () => {
                                 <input 
                                     name="password" 
                                     type="password"
-                                    label="Password"
+                                    placeholder="Password"
                                     onChange={handleChange}
                                     required
                                 />
@@ -122,7 +122,7 @@ const Auth = () => {
                                 <input 
                                     name="confirmPassword" 
                                     type="password"
-                                    label="Confirm Password"
+                                    placeholder="Confirm Password"
                                     onChange={handleChange}
                                     required
                                 />
