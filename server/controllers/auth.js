@@ -35,21 +35,21 @@ const login = async (req, res) => {
         
         const serverClient = connect(api_key, api_secret, app_id);
         const client = StreamChat.getInstance(api_key, api_secret);
-        // queryUsers returns a promise, so we need to await it
+
         const { users } = await client.queryUsers({ name: username });
-        // if the user doesn't exist, return an error
+
         if(!users.length) return res.status(400).json({ message: 'User not found' });
-        // if the user exists, we compare the password they sent with the hashed password in the database
+
         const success = await bcrypt.compare(password, users[0].hashedPassword);
 
         const token = serverClient.createUserToken(users[0].id);
-        // if the password is correct, we return the user object and the token
+
         if(success) {
             res.status(200).json({ token, fullName: users[0].fullName, username, userId: users[0].id});
         } else {
             res.status(500).json({ message: 'Incorrect password' });
         }
-    } catch (error) {ads
+    } catch (error) {
         console.log(error);
 
         res.status(500).json({ message: error });

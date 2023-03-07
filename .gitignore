@@ -24,6 +24,16 @@ chrome-user-data
 *.swp
 *.swo
 
+env/
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+yarn.lock
+package-lock.json
+packages/react-devtools-core/node_modules
+packages/react-devtools-core/yarn.lock
+packages/react-devtools-core/package-lock.json
 
 packages/react-devtools-core/dist
 packages/react-devtools-extensions/chrome/build
