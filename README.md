@@ -12,9 +12,11 @@ With our top-notch Authentication & SMS Notification features, you'll never miss
 ![Authentication2  screenshot](https://user-images.githubusercontent.com/64556398/223508947-98d686f4-27d2-45d8-bc8c-f843b0983147.png)
 
 ### Homepage
+Direct and Group Chats, emojis & Reactions, Built-in Gif support, the ability to edit & delete messages, specialized commands, and much more!
+
 ![Homepage screenshot](https://user-images.githubusercontent.com/64556398/223509081-350352b7-1194-44c8-b962-051ed82c0395.png)
 
-You can also edit the channel name if it is not the preferred channel name of choice!
+You can also edit the channel name
 
 ![Customize channel name screenshot](https://user-images.githubusercontent.com/64556398/223509470-265991bf-cb81-4971-ab84-6ef724a171a6.png)
 
