@@ -29,7 +29,8 @@ const Auth = () => {
 
         const { username, password, phoneNumber, avatarURL } = form;
 
-        const URL = 'http://localhost:4000/auth';
+        // const URL = 'http://localhost:4000/auth';
+        const URL = 'https://chick-chat-server.vercel.app/auth'
 
 
         const { data: { token, userId, hashedPassword, fullName } } = await axios.post(`${URL}/${isSignup ? 'signup' : 'login'}`, {

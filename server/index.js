@@ -14,7 +14,7 @@ const messagingServiceSid = process.env.TWILIO_MESSAGING_SERVICE_SID;
 const twilioClient = require('twilio')(accountSid, authToken);
 
 app.use(cors(
-    {origin: 'http://localhost:3000'}
+    {origin: "*"}
 ));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true}));
