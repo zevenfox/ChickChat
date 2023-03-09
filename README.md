@@ -20,6 +20,9 @@ You can also edit the channel name
 
 ![Customize channel name screenshot](https://user-images.githubusercontent.com/64556398/223509470-265991bf-cb81-4971-ab84-6ef724a171a6.png)
 
+Oh! I almost forgot, our website is also responsive, so you can open it on your mobile!
+<img width="397" alt="Screenshot 2566-03-10 at 00 34 46" src="https://user-images.githubusercontent.com/64556398/224109255-4521821e-7ece-4534-a6dc-ceb424b90750.png">
+
 ## Installation
 
 To install and run ChickChat locally, follow these steps:
