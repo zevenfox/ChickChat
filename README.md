@@ -21,7 +21,8 @@ You can also edit the channel name
 ![Customize channel name screenshot](https://user-images.githubusercontent.com/64556398/223509470-265991bf-cb81-4971-ab84-6ef724a171a6.png)
 
 Oh! I almost forgot, our website is also responsive, so you can open it on your mobile!
-<img width="397" alt="Screenshot 2566-03-10 at 00 34 46" src="https://user-images.githubusercontent.com/64556398/224109255-4521821e-7ece-4534-a6dc-ceb424b90750.png">
+<img width="395" alt="Screenshot 2566-03-10 at 00 36 05" src="https://user-images.githubusercontent.com/64556398/224109613-f3a56d41-c2ef-49e5-bb26-a6c2bce6443e.png">
+
 
 ## Installation
 
